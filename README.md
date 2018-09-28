@@ -1,5 +1,4 @@
-# Energy-efficiency-uci
-# Project Name
+# Estimating the energy requirements of teh buildings
 Project description: This study looked into assessing the heating load and cooling load requirements of buildings (that is, energy efficiency) as a function of building parameters.
 
 ## (Table of Contents)
