@@ -1,18 +1,22 @@
 # Estimating the energy requirements of the buildings
 Project description: This study looked into assessing the heating load and cooling load requirements of buildings (that is, energy efficiency) as a function of building parameters.
 
-## (Table of Contents)
-Optionally, include a table of contents in order to allow other people to quickly navigate especially long or detailed READMEs.
+### Requirements
+* Numpy, pandas, Scikit-learn, matplotlib, seaborn
 
-## Getting Started
-### Prerequisites
-What things you need to install before you can statrt installing the software itself.
+### Dataset
+1. Source: https://archive.ics.uci.edu/ml/datasets/energy+efficiency
+2. Description: Dataset Contains 8 building paramters as inputs and two target variables namely Cooling load and Heating Load
 
-### Installation
-Installation is the next section in an effective README. Tell other users how to install your project locally. Optionally, include a gif to make the process even more clear for other people.
+## Feature Selection
+1. [F Score](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.f_regression.html#sklearn.feature_selection.f_regression)!
+2. [Mutual Infomation](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.mutual_info_regression.html#sklearn.feature_selection.mutual_info_regression)!
 
-## Usage
-The next section is usage, in which you instruct other people on how to use your project after they’ve installed it. This would also be a good place to include screenshots of your project in action.ng
+## Regression Algorithms Used
+1. Multiple Linear Regression
+2. Polynomial Regression
+3. Ridge Regression
+4. Lasso Regression
+5. Support Vector Regression
+6. Classification and Regression Trees
 
-## License
-Finally, include a section for the license of your project. For more information on choosing a license, check out GitHub’s [licensing guide](https://choosealicense.com/)!
